@@ -1,0 +1,127 @@
+
+
+
+body {
+    background-color: #0F0D0D;
+    font-family: wedding-gothic-atf, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+.logo {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    
+    
+}
+
+
+.scrolldown {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+
+  
+}
+
+
+#pagewrap {
+
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;  
+
+}
+
+.dropdown-menu {
+    background: black;
+  
+    
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+.dropdown-text-white {
+    color: white;
+}
+
+.navbar-toggler .line{
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 5px;
+    background-color: #fff;
+} /* Dette er for at lave nye linjer som kan laves helt hvide */
+
+.navbar button {
+    border: none;
+} /* Dette er for at den grå border omkring burgermenuen ikke er der */
+
+.navbar button {
+      border: none;
+      outline: none;
+    } /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
+
+
+.navbar {
+    
+    margin-left: 20px;
+}
+
+
+h1{
+    
+    max-width: 100%;
+    font-size: 35px;
+    letter-spacing: 25px;
+    color: white;
+    margin-left: 10px;
+    
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+    
+        .logo {
+
+        max-width: 60%;
+                }
+
+       h1{
+        width:100%; letter-spacing: 70px; margin-left: 28px; color:white; 
+           
+    }
+
+}
+   
+    
+    
+
+    
+    
+    @media only screen and (min-width: 1200px){
+    h1{
+        width:100%; letter-spacing: 70px; margin-left: 28px; color:white;
+        
+    }
+    
+    .logo {
+
+        max-width: 60%;
+        margin-top: 100px;
+    
+    }
+
+
+
