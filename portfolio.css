@@ -9,7 +9,11 @@ body {
    
     
 }
-    
+
+
+
+/* baggrundsfarver */
+
 #background {
 
 background-image: linear-gradient(white, black);
@@ -20,11 +24,17 @@ background-image: linear-gradient(white, black);
 .background-design{
     
     
-    background-color: aqua;
+background-color: beige;
+    
 }
         
 
-        
+ /* baggrundsfarver-slut */  
+
+
+
+
+
 
 .logo {
     width: 100%;
@@ -192,9 +202,13 @@ h1{
     }
 
 }
-   
+
+
+
 @media only screen and (min-width: 992px){
 
+/* Menuen */
+    
     .navbar-nav {
 
 margin-left: 10%;        
@@ -208,12 +222,7 @@ margin-left: 10%;
         
     }    
     
-           .logo {
-
-        max-width: 60%;
-            
-                }
-
+        
     
     .navbar .navbar-nav {
         
@@ -221,7 +230,7 @@ margin-left: 10%;
     }
     
     
-    
+ /* Indholdet */
     
     
     h1{
@@ -229,6 +238,14 @@ margin-left: 10%;
         margin-top: 100px;
         letter-spacing: 70px;
     }
+    
+       .logo {
+
+        max-width: 60%;
+            
+                }
+    
+
 }
     
 
