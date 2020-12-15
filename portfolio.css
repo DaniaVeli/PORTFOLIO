@@ -1,14 +1,29 @@
 
 body {
        
-    font-family: wedding-gothic-atf, sans-serif;
+    font-family: BatmanForeverAlternate, sans-serif;
     font-weight: 200;
     font-style: normal;
     max-width: 100%;
     height: auto;
-   
+ 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #111;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 2.5;
+    text-transform: uppercase;
+    margin-top: 600px;
+    letter-spacing: 70px;
+    padding-left: 30px;
     
 }
+
 
 
 
@@ -20,14 +35,34 @@ background-image: linear-gradient(white, black);
 
 }
 
-.background-design{
+.background-photoshop{
     
     
-background-image: linear-gradient(white,#104848)
+background-image: linear-gradient(white,#104848);
+    
+}
+
+.background-action{
+    
+    
+background-image: linear-gradient(white,#104848);
+    
+}
+
+.background-illustrator{
+    
+    
+background-image: linear-gradient(white,#104848);
     
 }
 
 
+.background-xd{
+    
+    
+background-image: linear-gradient(white,#104848);
+    
+}
 
 
 /* baggrundsfarver-slut */  
@@ -37,8 +72,7 @@ background-image: linear-gradient(white,#104848)
     width: 100%;
     height: auto;
     margin-top: 150px;
-    
-    
+
 }
 
 
@@ -69,7 +103,6 @@ background-image: linear-gradient(white,#104848)
     font-size: 17px;
     
     
-  
 }
 
 .navbar-toggler .line{
@@ -97,13 +130,13 @@ background-image: linear-gradient(white,#104848)
 
 .navbar{
     
-       margin-left: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
+    color: #C7000A;
+    
    
 }
     
-  
-
 
 h1{
     
@@ -111,8 +144,8 @@ h1{
     font-size: 35px;
     letter-spacing: 25px;
     color: white;
-    margin-left: 10px;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-top: 150px;
 
 
    background: -webkit-linear-gradient(#eee, #333);
@@ -121,7 +154,6 @@ h1{
   
 
 }
-
 
 
 
@@ -224,7 +256,7 @@ margin-left: 10%;
     
     .navbar .navbar-nav {
         
-        margin-left: 65px;
+        margin-left: 150px;
     }
     
     
@@ -265,7 +297,7 @@ margin-left: 10%;
        
     .navbar .navbar-nav {
         
-        margin-left: 200px;
+        margin-left: 250px;
     }
     
     
@@ -287,6 +319,8 @@ margin-left: 10%;
     
     }
 
+
+    
         
 .navbar-nav {
             
@@ -300,6 +334,7 @@ margin-left: 17%;
     
     
 }
+
   
 
 .navbar-brand {
@@ -308,7 +343,7 @@ margin-left: 17%;
     
 }
 
-.navbar-brand: hover{
+.navbar-brand a:hover{
     
  color: black;
     
@@ -317,9 +352,10 @@ margin-left: 17%;
 
 
 
-.dropdown-menu a:hover {
+.dropdown-menu a:hover{
     
     background-color: white;
     transition: 2s; 
 }
+
 
