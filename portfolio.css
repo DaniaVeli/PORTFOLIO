@@ -17,23 +17,20 @@ body {
 #background {
 
 background-image: linear-gradient(white, black);
-    
 
 }
 
 .background-design{
     
     
-background-color: beige;
+background-image: linear-gradient(white,#104848)
     
 }
-        
-
- /* baggrundsfarver-slut */  
 
 
 
 
+/* baggrundsfarver-slut */  
 
 
 .logo {
@@ -52,6 +49,7 @@ background-color: beige;
     margin-right: 1px;  
 
 }
+
 
 .dropdown-menu {
     background: none;
@@ -99,7 +97,7 @@ background-color: beige;
 
 .navbar{
     
-       margin-left: 20px;
+       margin-left: 10px;
     margin-bottom: 10px;
    
 }
@@ -126,6 +124,7 @@ h1{
 
 
 
+
 @media only screen and (min-width: 600px){
     
     h1{
@@ -136,8 +135,7 @@ h1{
     color: white;
     margin-left: -20px;
     margin-top: 100px;
-        
-    
+  
 
 }
  
