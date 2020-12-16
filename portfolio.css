@@ -343,9 +343,14 @@ margin-left: 17%;
     
 }
 
-.navbar-brand a:hover{
+.navbar-brand:hover{
     
  color: black;
+    
+   background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:  transparent;
+    
     
     
 }
@@ -357,5 +362,4 @@ margin-left: 17%;
     background-color: white;
     transition: 2s; 
 }
-
 
