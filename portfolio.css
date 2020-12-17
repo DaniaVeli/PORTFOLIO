@@ -1,4 +1,14 @@
 
+
+html{
+    
+    min-height: 100%;
+    overflow-y: hidden;
+    
+}
+
+
+
 body {
        
     font-family: BatmanForeverAlternate, sans-serif;
@@ -9,20 +19,139 @@ body {
  
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background: #111;
-    color: #fff;
-    padding: 2rem 0;
-    line-height: 2.5;
-    text-transform: uppercase;
-    margin-top: 600px;
-    letter-spacing: 70px;
-    padding-left: 30px;
+
+
+
+footer{
+    
+    background-color: black;
+    height: 60px;
     
 }
+
+
+
+footer img{
+    
+    width: 100px;
+    margin-top: 2px;
+    
+}
+
+
+#aa{
+    
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+
+}
+
+
+
+#bb{
+    
+    width: 33px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+
+#cc{
+    
+    width: 45px;
+    margin-left: -6px;
+    margin-top: 4px;
+
+}
+
+footer{
+    
+    display: inline-flex;
+    width: 100%;
+}
+
+#socials{
+    
+   
+    display: inline-flex;
+    list-style: none;
+    grid-area: social;
+    justify-content: center;
+    margin-top: 4px;
+    
+}
+
+
+#navn{
+    
+
+    margin-top: 20px;
+    grid-area: navn;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+  
+}
+
+
+#logofooter{
+    
+    grid-area: logo;
+    
+}
+
+
+footer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "logo social navn";   
+    
+}
+
+
+
+
+#undermenuphotoshop ul{
+
+list-style: none;
+display: inline-flex;
+margin-top: 15px;    
+    
+}
+
+#undermenuphotoshop ul li{
+    
+margin-right: 50px;
+    
+}
+
+
+
+#undermenuphotoshop{
+    
+text-align: center;
+background-color: darkgray;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+display: none;
+    
+    
+}
+
+#undermenuphotoshop ul li a{
+    
+ color: black;
+text-decoration: none;
+    
+    
+}
+
 
 
 
@@ -200,6 +329,15 @@ h1{
 @media only screen and (min-width: 768px){
     
     
+    
+    #undermenuphotoshop{
+
+        
+        display: block;
+}
+    
+    
+    
         .logo {
 
         max-width: 80%;
@@ -260,6 +398,13 @@ margin-left: 10%;
     }
     
     
+    #undermenuphotoshop{
+        
+        margin-top: -40;
+    }
+    
+  
+    
  /* Indholdet */
     
     
@@ -274,11 +419,22 @@ margin-left: 10%;
         max-width: 60%;
             
                 }
+   
     
+    .dropdown:hover #undermenuphotoshop{
+        
+        margin-bottom: 50px;
+        position: relative;
+        
+        
+    }
+  
+    
+
 
 }
     
-
+  
     
     
 @media only screen and (min-width: 1200px){
@@ -290,7 +446,7 @@ margin-left: 10%;
     
     .navbar {
         
-        margin-bottom: 0px;
+        margin-bottom: 50px;
     }
     
     
@@ -320,6 +476,11 @@ margin-left: 10%;
     }
 
 
+    
+    
+    
+    
+    
     
         
 .navbar-nav {
@@ -362,4 +523,6 @@ margin-left: 17%;
     background-color: white;
     transition: 2s; 
 }
+
+
 
