@@ -3,15 +3,18 @@
 html{
     
     min-height: 100%;
-    overflow-y: hidden;
-    
+
 }
 
+.hovedsideoverflow{
+    
+    overflow-y: hidden;
+}
 
 
 body {
        
-    font-family: BatmanForeverAlternate, sans-serif;
+    font-family: sans-serif;
     font-weight: 200;
     font-style: normal;
     max-width: 100%;
@@ -20,23 +23,122 @@ body {
 }
 
 
+#margin{
 
+margin: 1em;
+
+}
+
+.title{
+    
+    text-align: center;
+}
+
+
+
+
+/*BMC*/
+
+.bmc img{
+
+  max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+
+
+#bmcmodel{
+
+text-align: center;
+
+}
+
+
+
+/*BMC SLUTTER HER*/
+
+.informationsarkitektur img {
+    
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+
+
+.background-photoshop img {
+    
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+
+
+
+#hovedsidetitlen{
+    
+    font-family: BatmanForeverAlternate;
+}
+
+
+.navbar {
+    
+     font-family: BatmanForeverAlternate;
+}
+
+#undermenuphotoshop{
+    
+    
+    font-family: BatmanForeverAlternate;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.bodytext{
+    
+ font-family: 'Lora', serif;
+font-family: 'PT Serif', serif;
+}
+
+.fed{
+    
+     font-family: 'Lora', serif;
+font-family: 'PT Serif', serif;
+    
+    font-weight: bold;
+    
+}
 
 footer{
     
     background-color: black;
     height: 60px;
+    font-family: BatmanForeverAlternate;
+    
+}
+
+#undermenuphotoshop ul{
+    
+    max-width: 100%;
     
 }
 
 
-
-footer img{
+#undermenuphotoshop{
     
-    width: 100px;
-    margin-top: 2px;
-    
+    text-align: center;
+    max-width: 100%;
 }
+
+
+
 
 
 #aa{
@@ -67,11 +169,7 @@ footer img{
 
 }
 
-footer{
-    
-    display: inline-flex;
-    width: 100%;
-}
+
 
 #socials{
     
@@ -97,6 +195,11 @@ footer{
 }
 
 
+
+/*FOOTER*/
+
+
+
 #logofooter{
     
     grid-area: logo;
@@ -112,6 +215,35 @@ footer{
     "logo social navn";   
     
 }
+
+
+footer{
+    
+    display: inline-flex;
+    width: 100%;
+}
+
+
+
+footer img{
+    
+    width: 100px;
+    margin-top: 2px;
+    
+}
+
+
+
+footer{
+    
+    background-color: black;
+    height: 60px;
+    font-family: BatmanForeverAlternate;
+    
+}
+
+
+/*FOOTER SLUT*/
 
 
 
@@ -167,14 +299,14 @@ background-image: linear-gradient(white, black);
 .background-photoshop{
     
     
-background-image: linear-gradient(white,#104848);
+background-image: white;
     
 }
 
 .background-action{
     
     
-background-image: linear-gradient(white,#104848);
+background-image: white;
     
 }
 
@@ -186,12 +318,31 @@ background-image: linear-gradient(white,#104848);
 }
 
 
-.background-xd{
+
+
+.bmc{
     
-    
-background-image: linear-gradient(white,#104848);
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+
     
 }
+
+
+
+.informationsarkitektur{
+    
+background-image: white;
+    
+}
+
+.bmc{
+
+background-image: white;
+
+}
+
+
+
 
 
 /* baggrundsfarver-slut */  
@@ -267,7 +418,7 @@ background-image: linear-gradient(white,#104848);
 }
     
 
-h1{
+#hovedsidetitlen{
     
     max-width: 100%;
     font-size: 35px;
@@ -288,7 +439,7 @@ h1{
 
 @media only screen and (min-width: 600px){
     
-    h1{
+    #hovedsidetitlen{
     
     max-width: 100%;
     font-size: 35px;
@@ -359,7 +510,7 @@ h1{
     }
     
 
-       h1{
+       #hovedsidetitlen{
         width:100%;
         letter-spacing:30px;
         margin-left:2px;
@@ -401,6 +552,8 @@ margin-left: 10%;
     #undermenuphotoshop{
         
         margin-top: -40;
+       
+     
     }
     
   
@@ -408,7 +561,7 @@ margin-left: 10%;
  /* Indholdet */
     
     
-    h1{
+    #hovedsidetitlen{
         
         margin-top: 100px;
         letter-spacing: 70px;
@@ -430,6 +583,11 @@ margin-left: 10%;
     }
   
     
+    
+    .dropdown-menu {
+        
+        background-color: darkgray;
+    }
 
 
 }
@@ -459,7 +617,7 @@ margin-left: 10%;
     
     
     
-     h1{
+     #hovedsidetitlen{
         width:100%;
         letter-spacing: 70px;
         margin-left: 28px; 
@@ -476,12 +634,7 @@ margin-left: 10%;
     }
 
 
-    
-    
-    
-    
-    
-    
+ 
         
 .navbar-nav {
             
@@ -518,9 +671,10 @@ margin-left: 17%;
 
 
 
+
 .dropdown-menu a:hover{
     
-    background-color: white;
+    background-color: darkgray;
     transition: 2s; 
 }
 
