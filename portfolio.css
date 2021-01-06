@@ -15,12 +15,29 @@ html{
 body {
        
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     max-width: 100%;
     height: auto;
+    color: black;
  
 }
+
+#undermenuphotoshop ul{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+justify-content: center;    
+   
+} 
+
+#undermenuphotoshop{
+    
+height: 50px;
+
+}
+
 
 
 #margin{
@@ -29,10 +46,123 @@ margin: 1em;
 
 }
 
+
+{
+        
+  text-align: center;  
+    
+}
+
+
+
+
+
+/*TEXT - ALIGN */
+
+
 .title{
     
     text-align: center;
+    font-family: serif
 }
+
+
+.bodytext{
+    
+  font-family: sans-serif
+}
+
+.underover{
+
+font-family: serif
+    
+}
+
+.empiri{
+    
+    text-align: center;
+    
+}
+
+
+.typograf{
+    
+    text-align: center; 
+    
+}
+
+.fotograf{
+
+ text-align: center; 
+
+}
+
+.grund{
+    
+    text-align: center;
+}
+
+
+.thinking{
+
+text-align: center;
+    
+}
+
+
+.cssfile{
+
+text-align: center;
+    
+}
+
+
+.responsive{
+    
+     text-align: center;
+}
+
+.loven{
+    
+     text-align: center;
+}
+
+.perioder{
+    
+    text-align: center;
+    
+}
+
+.farver-a{
+    
+      text-align: center;
+    
+}
+
+.htmlsite{
+    
+    text-align: center;
+    
+}
+
+.usabilit{
+
+text-align: center;
+    
+}
+
+.teknik{
+    
+text-align: center;
+    
+}
+
+
+
+
+/*TEXT - ALIGN SLUTTER */
+
+
 
 
 
@@ -41,7 +171,7 @@ margin: 1em;
 
 .bmc img{
 
-  max-width: 100%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -57,8 +187,12 @@ text-align: center;
 }
 
 
-
 /*BMC SLUTTER HER*/
+
+
+
+/* IMG FIXED */
+
 
 .informationsarkitektur img {
     
@@ -68,7 +202,98 @@ text-align: center;
     display: flex;
 }
 
+.gestaltloven img{
+    
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
+    
+}
 
+
+
+.fotografi img{
+
+    max-width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex; 
+
+
+}
+
+
+.css-html img{
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
+
+
+}
+
+
+
+.grundlaeggendekommunikation img{
+    
+    
+  max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
+    
+}
+
+.designthinking img{
+
+     max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex; 
+
+}
+
+.htmlside img{
+
+max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex; 
+
+}
+
+.farver img{
+    
+  max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;    
+    
+}
+
+.typografi img{
+
+max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+
+
+
+.usability img{
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
 
 .background-photoshop img {
     
@@ -79,120 +304,148 @@ text-align: center;
 }
 
 
+.praesentationsteknik img{
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+
+.responsivedesign img{
+
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+
+
+
+.grundlaeggendekommunikation img{
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+}
+
+
+.kvantitativogkvalitativempiri img{
+    
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex; 
+    
+    
+}
+
+
+
+
+/* IMG FIXED */
+
+
+
 
 
 #hovedsidetitlen{
     
-    font-family: BatmanForeverAlternate;
+    font-family:BatmanForeverAlternate ;
 }
 
 
 .navbar {
     
-     font-family: BatmanForeverAlternate;
+     font-family: serif;
 }
+
+
+
+
+/* UNDERMENU */
+
 
 #undermenuphotoshop{
     
     
-    font-family: BatmanForeverAlternate;
-    font-size: 10px;
+    font-family: serif;
     text-align: center;
+  
 }
 
-
-.bodytext{
-    
- font-family: 'Lora', serif;
-font-family: 'PT Serif', serif;
-}
-
-.fed{
-    
-     font-family: 'Lora', serif;
-font-family: 'PT Serif', serif;
-    
-    font-weight: bold;
-    
-}
-
-footer{
-    
-    background-color: black;
-    height: 60px;
-    font-family: BatmanForeverAlternate;
-    
-}
 
 #undermenuphotoshop ul{
     
     max-width: 100%;
     
+    
 }
 
 
 #undermenuphotoshop{
     
     text-align: center;
-    max-width: 100%;
-}
-
-
-
-
-
-#aa{
-    
-    width: 30px;
-    margin-top: 10px;
-    margin-right: 20px;
-    
-
-}
-
-
-
-#bb{
-    
-    width: 33px;
-    margin-top: 10px;
-    margin-right: 20px;
+    max-width: 60%;
     
 }
 
 
-#cc{
-    
-    width: 45px;
-    margin-left: -6px;
-    margin-top: 4px;
 
+#undermenuphotoshop ul{
+
+list-style: none;
+display: inline-flex;
+margin-top: 13px;
+
+    
+}
+
+#undermenuphotoshop ul li{
+    
+margin-right: 50px;
+
+    
+    
 }
 
 
 
-#socials{
+#undermenuphotoshop{
     
-   
-    display: inline-flex;
-    list-style: none;
-    grid-area: social;
-    justify-content: center;
-    margin-top: 4px;
-    
-}
+text-align: center;
+background-color: darkgray;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: none;
+max-height: auto;
 
 
-#navn{
-    
 
-    margin-top: 20px;
-    grid-area: navn;
-    color: white;
-    text-align: right;
-    margin-right: 20px;
+  
   
 }
+
+#undermenuphotoshop ul li a{
+    
+ color: black;
+text-decoration: none;
+    
+    
+}
+
+
+/* UNDERMENU SLUTTER */
+
+
+
 
 
 
@@ -200,9 +453,24 @@ footer{
 
 
 
+
+
+
+footer{
+background-color: black;
+height: auto;
+font-family: BatmanForeverAlternate;
+
+    
+}
+
+
 #logofooter{
     
     grid-area: logo;
+    margin-left: -12px;
+    margin-right: -20px;
+    
     
 }
 
@@ -210,28 +478,41 @@ footer{
 footer{
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-template-areas: 
-    "logo social navn";   
+    "logo navn";
+    text-align: center;
+    
     
 }
 
+#navn{
+
+
+color: white;
+margin-top: 17px;
+text-align: right;
+margin-right: 15px;    
+
+
+
+}
 
 footer{
     
-    display: inline-flex;
-    width: 100%;
+   
+  max-width:100%;
+    
 }
-
 
 
 footer img{
     
     width: 100px;
     margin-top: 2px;
+ 
     
 }
-
 
 
 footer{
@@ -244,45 +525,6 @@ footer{
 
 
 /*FOOTER SLUT*/
-
-
-
-
-#undermenuphotoshop ul{
-
-list-style: none;
-display: inline-flex;
-margin-top: 15px;    
-    
-}
-
-#undermenuphotoshop ul li{
-    
-margin-right: 50px;
-    
-}
-
-
-
-#undermenuphotoshop{
-    
-text-align: center;
-background-color: darkgray;
-max-width: 80%;
-margin-left: auto;
-margin-right: auto;
-display: none;
-    
-    
-}
-
-#undermenuphotoshop ul li a{
-    
- color: black;
-text-decoration: none;
-    
-    
-}
 
 
 
@@ -310,19 +552,125 @@ background-image: white;
     
 }
 
-.background-illustrator{
+.gestaltloven{
+
+
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.designthinking{
+
+
+background-image: linear-gradient(white, darkgray)
+
+}
+
+
+
+.fotografi{
+
+
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.internet{
+    
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.css-html{
+    
+background-image: linear-gradient(white, darkgray);
+
+}
+
+
+.usability{
+    
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.farver{
+    
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.typografi{
+    
+background-image: linear-gradient(white, darkgray);
+
+}
+
+
+
+.htmlside{
+    
+background-image: linear-gradient(white, darkgray);
+
+}
+
+
+
+.grundlaeggendekommunikation{
     
     
-background-image: linear-gradient(white,#104848);
+background-image: linear-gradient(white, darkgray);    
     
 }
 
+.internet{
+    
+    background-image: linear-gradient(white, darkgray);
+}
+
+
+.bmc{
+
+
+background-image: linear-gradient(white, darkgray);
+
+}
+
+
+.kvantitativogkvalitativempiri{
+
+
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.praesentationsteknik{
+
+
+background-image: linear-gradient(white, darkgray);
+
+}
+
+.background-illustrator{
+    
+    
+background-image: linear-gradient(white, darkgray);
+    
+}
+
+
+.responsivedesign{
+
+
+background-image: linear-gradient(white, darkgray);
+
+}
 
 
 
 .bmc{
     
-    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    background-color: white;
 
     
 }
@@ -331,24 +679,19 @@ background-image: linear-gradient(white,#104848);
 
 .informationsarkitektur{
     
-background-image: white;
+    
+background-image: linear-gradient(white, darkgray);
+    
     
 }
 
-.bmc{
-
-background-image: white;
-
-}
 
 
-
-
-
-/* baggrundsfarver-slut */  
+/* BAGGRUNDSFARVE SLUT */  
 
 
 .logo {
+    
     width: 100%;
     height: auto;
     margin-top: 150px;
@@ -405,7 +748,7 @@ background-image: white;
 .navbar button {
       border: none;
       outline: none;
-    } /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
+} /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
 
 
 .navbar{
@@ -437,6 +780,12 @@ background-image: white;
 
 
 
+
+/* 600px */
+
+
+
+
 @media only screen and (min-width: 600px){
     
     #hovedsidetitlen{
@@ -450,6 +799,8 @@ background-image: white;
   
 
 }
+    
+    
  
 
     .logo {
@@ -477,6 +828,15 @@ background-image: white;
 
 
 
+
+
+/* 600px SLUTTER */
+
+
+
+
+/* 768px */
+
 @media only screen and (min-width: 768px){
     
     
@@ -485,6 +845,8 @@ background-image: white;
 
         
         display: block;
+        font-size: 12px;
+        
 }
     
     
@@ -507,12 +869,13 @@ background-image: white;
     .navbar{
         
         margin-bottom: 10px;
+        
     }
     
 
        #hovedsidetitlen{
         width:100%;
-        letter-spacing:30px;
+        letter-spacing:40px;
         margin-left:2px;
         color:white;
         margin-bottom: 100px;
@@ -520,43 +883,67 @@ background-image: white;
            
     }
 
+      
+    
+    
+#undermenuphotoshop ul{
+
+margin-top: 6px;
+
 }
 
+}
 
+/* 768px SLUTTER */
+
+
+
+/* 992x */
 
 @media only screen and (min-width: 992px){
 
 /* Menuen */
     
-    .navbar-nav {
+    .navbar-nav{
 
-margin-left: 10%;        
-        
+        margin-left: 20%;
 
-}
+      
+        }
+    
 
     .navbar {
         
-        margin-bottom: 50px;
-        
-    }    
+        margin-bottom: 2px;
     
         
-    
-    .navbar .navbar-nav {
-        
-        margin-left: 150px;
-    }
-    
-    
-    #undermenuphotoshop{
-        
-        margin-top: -40;
-       
-     
-    }
+    }  
     
   
+    
+    .navbar-brand{
+    
+     margin-top: -25px;
+
+}
+        
+    
+    .navbar .navbar-nav{
+        
+        margin-left: 25px;
+        letter-spacing: 1px;
+
+    }
+    
+    
+#undermenuphotoshop{
+
+margin-top: 30px;
+font-size: 12px;    
+
+
+} 
+    
     
  /* Indholdet */
     
@@ -564,7 +951,7 @@ margin-left: 10%;
     #hovedsidetitlen{
         
         margin-top: 100px;
-        letter-spacing: 70px;
+        letter-spacing:70px;
     }
     
        .logo {
@@ -582,18 +969,35 @@ margin-left: 10%;
         
     }
   
-    
+
     
     .dropdown-menu {
         
         background-color: darkgray;
     }
+    
+    
+    #undermenuphotoshop ul{
+
+margin-top: 10px;
+vertical-align: middle;         
+
+}
+
+ 
 
 
 }
-    
+/* Indholdet SLUTTER */
+
+
+
+/* 992px SLUTTER */
+
+
+
+/* 1200px */
   
-    
     
 @media only screen and (min-width: 1200px){
     
@@ -604,19 +1008,38 @@ margin-left: 10%;
     
     .navbar {
         
-        margin-bottom: 50px;
+        margin-bottom: -15px;
     }
     
-    
-       
+
     .navbar .navbar-nav {
         
-        margin-left: 250px;
+        margin-left: 50px;
+         
+        letter-spacing: 1px;
+         
     }
     
+  
+  #undermenuphotoshop ul{
+
+margin-top: 15px;
+vertical-align: middle;         
+
+}
+  
+    
+    
+#undermenuphotoshop{
+
+margin-top: 40px;
+font-size: 14px;    
+
+} 
     
     
     
+
      #hovedsidetitlen{
         width:100%;
         letter-spacing: 70px;
@@ -634,26 +1057,29 @@ margin-left: 10%;
     }
 
 
- 
+    
         
-.navbar-nav {
+.navbar-nav{
             
             
-margin-left: 17%;
+margin-left: 17%;    
 
   
 }
   
-
-    
+ 
     
 }
 
+/* 1200px SLUTTER */
+
   
 
-.navbar-brand {
+.navbar-brand{
     
  color: #C7000A;
+margin-top: -2px;
+ 
     
 }
 
@@ -665,18 +1091,108 @@ margin-left: 17%;
   -webkit-background-clip: text;
   -webkit-text-fill-color:  transparent;
     
-    
-    
 }
-
 
 
 
 .dropdown-menu a:hover{
     
-    background-color: darkgray;
+    background-color: white;
     transition: 2s; 
 }
+
+
+
+/* PAGEWRAP */
+
+#pagewrapdt {
+
+margin: 1em;
+
+}
+
+#pagewrapfarve{
+
+margin: 1em;
+    
+}
+
+#pagewraphtml{
+
+margin: 1em;
+}
+
+#pagewrapusability{
+
+margin: 1em;
+}
+
+#pagewraptypografi{
+
+margin: 1em;    
+
+}
+
+#pagewrapbmc{
+
+margin: 1em;
+}
+
+#pagewrapteknik{
+
+margin: 1em;
+}
+
+#pagewraprespons{
+    
+margin: 1em;    
+
+}
+
+
+#pagewrapkommunikation{
+    
+margin: 1em;    
+
+}
+
+#pagewrapempiri{
+    
+margin: 1em;    
+    
+}
+
+#pagewrapgestalt{
+
+margin: 1em;
+
+}
+
+#pagewrapinternet{
+    
+margin: 1em;        
+    
+}
+
+#pagewrapfotografering{
+    
+margin: 1em;    
+}
+
+#pagewrapcss{
+    
+margin: 1em;    
+}
+
+
+#pagewrapresponsive{
+margin: 1em;
+
+
+}
+
+/* PAGEWRAP SLUTTER */
+
 
 
 
