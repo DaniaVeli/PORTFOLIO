@@ -12,16 +12,19 @@ html{
 }
 
 
+
 body {
        
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 100;
-    font-style: normal;
+    font-style:normal;
     max-width: 100%;
     height: auto;
     color: black;
  
 }
+
+
 
 #undermenuphotoshop ul{
 
@@ -54,9 +57,6 @@ margin: 1em;
 }
 
 
-
-
-
 /*TEXT - ALIGN */
 
 
@@ -69,13 +69,21 @@ margin: 1em;
 
 .bodytext{
     
-  font-family: sans-serif
+  font-family: 'Lato', sans-serif;
 }
 
 .underover{
 
-font-family: serif
+font-family: 'Lato', sans-serif;
+font-size: 25px;     
     
+}
+
+
+.underover2{
+
+font-family: 'Lato', sans-serif;
+
 }
 
 .empiri{
@@ -96,6 +104,7 @@ font-family: serif
  text-align: center; 
 
 }
+
 
 .grund{
     
@@ -158,13 +167,9 @@ text-align: center;
 }
 
 
-
+  s
 
 /*TEXT - ALIGN SLUTTER */
-
-
-
-
 
 
 /*BMC*/
@@ -212,8 +217,17 @@ text-align: center;
 }
 
 
-
 .fotografi img{
+
+    max-width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex; 
+
+
+}
+
+.tekst-produktion img{
 
     max-width:100%;
     margin-right: auto;
@@ -235,6 +249,25 @@ text-align: center;
 }
 
 
+.fn-verdensmal img{
+    
+   max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;   
+    
+    
+}
+
+.fn-verdensmal iframe{
+    
+   max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;   
+    
+    
+}
 
 .grundlaeggendekommunikation img{
     
@@ -246,9 +279,19 @@ text-align: center;
     
 }
 
+
+.one-page img{
+
+ max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex; 
+
+}
+
 .designthinking img{
 
-     max-width: 100%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex; 
@@ -282,7 +325,6 @@ max-width: 100%;
 
 
 }
-
 
 
 .usability img{
@@ -324,8 +366,6 @@ max-width: 100%;
 
 }
 
-
-
 .grundlaeggendekommunikation img{
 
     max-width: 100%;
@@ -347,13 +387,7 @@ max-width: 100%;
 }
 
 
-
-
 /* IMG FIXED */
-
-
-
-
 
 #hovedsidetitlen{
     
@@ -364,10 +398,9 @@ max-width: 100%;
 .navbar {
     
      font-family: serif;
+   
+    
 }
-
-
-
 
 /* UNDERMENU */
 
@@ -482,8 +515,7 @@ footer{
     grid-template-areas: 
     "logo navn";
     text-align: center;
-    
-    
+ 
 }
 
 #navn{
@@ -545,11 +577,18 @@ background-image: white;
     
 }
 
+
 .background-action{
     
     
 background-image: white;
     
+}
+
+.tekst-produktion{
+
+background-image: linear-gradient(white, darkgray);
+
 }
 
 .gestaltloven{
@@ -566,6 +605,12 @@ background-image: linear-gradient(white, darkgray)
 
 }
 
+.fn-verdensmal{
+
+
+background-image: linear-gradient(white, darkgray)
+
+}
 
 
 .fotografi{
@@ -735,8 +780,10 @@ background-image: linear-gradient(white, darkgray);
     display: block;
     margin-top: 5px;
     background-color: #C7000A;
+    
 
 }
+
 
     
 } /* Dette er for at lave nye linjer som kan laves helt hvide */
@@ -778,17 +825,11 @@ background-image: linear-gradient(white, darkgray);
 
 }
 
-
-
-
 /* 600px */
-
-
-
 
 @media only screen and (min-width: 600px){
     
-    #hovedsidetitlen{
+#hovedsidetitlen{
     
     max-width: 100%;
     font-size: 35px;
@@ -800,10 +841,11 @@ background-image: linear-gradient(white, darkgray);
 
 }
     
-    
+   
+
  
 
-    .logo {
+ .logo {
 
         max-width: 100%;
         margin-top: 100px;
@@ -811,29 +853,21 @@ background-image: linear-gradient(white, darkgray);
                 }
     
     
-    .navbar {
+.navbar {
         
         margin-bottom: 20px;
     }
     
     
-    #pagewrap{
+#pagewrap{
 
     margin-left: 90px;
         
     }
-  
     
 }
 
-
-
-
-
 /* 600px SLUTTER */
-
-
-
 
 /* 768px */
 
@@ -848,44 +882,28 @@ background-image: linear-gradient(white, darkgray);
         font-size: 12px;
         
 }
-    
-    
-    
+
         .logo {
 
         max-width: 80%;
             
                 }
-    
-    
-    
-    
-    .navbar .navbar-nav {
-        
-        margin-left: 40px;
-    }
-    
-    
+ 
     .navbar{
         
         margin-bottom: 10px;
         
     }
-    
-
+ 
        #hovedsidetitlen{
         width:100%;
         letter-spacing:40px;
         margin-left:2px;
         color:white;
         margin-bottom: 100px;
-
-           
+     
     }
-
-      
-    
-    
+  
 #undermenuphotoshop ul{
 
 margin-top: 6px;
@@ -895,7 +913,6 @@ margin-top: 6px;
 }
 
 /* 768px SLUTTER */
-
 
 
 /* 992x */
@@ -919,14 +936,13 @@ margin-top: 6px;
         
     }  
     
-  
-    
     .navbar-brand{
-    
-     margin-top: -25px;
 
-}
-        
+    margin-top: -25px;
+    
+    }
+    
+   
     
     .navbar .navbar-nav{
         
@@ -971,7 +987,7 @@ font-size: 12px;
   
 
     
-    .dropdown-menu {
+.dropdown-menu {
         
         background-color: darkgray;
     }
@@ -983,8 +999,6 @@ margin-top: 10px;
 vertical-align: middle;         
 
 }
-
- 
 
 
 }
@@ -1009,6 +1023,13 @@ vertical-align: middle;
     .navbar {
         
         margin-bottom: -15px;
+    }
+    
+    
+        .navbar-brand{
+
+    margin-top: 1px;
+    
     }
     
 
@@ -1036,9 +1057,6 @@ margin-top: 40px;
 font-size: 14px;    
 
 } 
-    
-    
-    
 
      #hovedsidetitlen{
         width:100%;
@@ -1055,20 +1073,14 @@ font-size: 14px;
         margin-top: 100px;
     
     }
-
-
-    
-        
+     
 .navbar-nav{
             
             
-margin-left: 17%;    
-
+margin-left: 17%;
   
 }
-  
- 
-    
+
 }
 
 /* 1200px SLUTTER */
@@ -1078,7 +1090,8 @@ margin-left: 17%;
 .navbar-brand{
     
  color: #C7000A;
-margin-top: -2px;
+font-family:BatmanForeverAlternate;    
+
  
     
 }
@@ -1101,6 +1114,11 @@ margin-top: -2px;
     transition: 2s; 
 }
 
+#undermenuphotoshop:hover{
+    
+    background-color: gray;
+    transition: 2s; 
+}
 
 
 /* PAGEWRAP */
@@ -1191,8 +1209,72 @@ margin: 1em;
 
 }
 
+#pagewrapversion{
+    
+ margin: 1em;   
+    
+}
+
+#pagewraptekstillustrator{
+
+ margin: 1em;
+
+}
+
+#pagewraptekstphotoshop{
+
+ margin: 1em;
+
+}
+
+#pagewraptekstworkshop{
+
+ margin: 1em;
+
+    
+}
+#pagewraptekstfn{
+
+ margin: 1em;
+
+}
+
+#pagewrapteksthackathon{
+
+ margin: 1em;
+
+}
+
+#pagewraptekstportfolio{
+
+ margin: 1em;
+
+}
+
+#pagewraptekstpage{
+
+ margin: 1em;
+
+}
+
+
+#pagewraptekstfn{
+
+ margin: 1em;
+
+}
+
+
+#pagewraptekstproduktion{
+    
+  margin: 1em;   
+    
+}
+
+#pagewraptekstpage{
+    
+    
+ margin: 1em;    
+    
+}
 /* PAGEWRAP SLUTTER */
-
-
-
-
