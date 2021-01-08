@@ -1,0 +1,126 @@
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1.1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;   
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+/*  END RESET */
+
+
+
+header {
+    background-color: #dd2828;
+    padding: 4%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.3;
+    
+}
+
+footer {
+    background-color: #dd2828;
+    text-align: center;
+    clear: both; 
+}
+
+#billedsektion {
+    width: 50%;
+    float: right;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 0.5em;
+    margin-left: 0.1em;
+}
+
+#stortbillede {
+    width: 100%;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: sans-serif;
+    margin-bottom: 0.2em;
+}
+
+
+#indhold {
+    width: 70%;
+    float: left;
+}
+
+#faktaboks {
+    width: 25%;
+    background-color: black;
+    color: #dd2828;
+    padding: 0.3em;
+    float: right;
+    border-radius: 10px 10px 5px 5px 
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin: 0.2em;
+}
+
+h3:nth-child(11){
+    margin-bottom: 0.1em;
+}
+
+a {
+    color: grey;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:checked{
+    color: yellow;
+}
+
+
+#pagewrap {
+    margin: 1% 5%;
+}
+
+#main {
+    margin: 2em;
+    
+}
+
+
+
+
+

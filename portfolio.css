@@ -356,6 +356,19 @@ max-width: 100%;
 
 }
 
+
+.workshop img{
+
+max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+
+
+}
+
 .responsivedesign img{
 
     max-width: 50%;
@@ -840,17 +853,13 @@ background-image: linear-gradient(white, darkgray);
   
 
 }
-    
-   
-
- 
 
  .logo {
 
         max-width: 100%;
         margin-top: 100px;
         margin-left: -70px;
-                }
+        }
     
     
 .navbar {
@@ -869,6 +878,37 @@ background-image: linear-gradient(white, darkgray);
 
 /* 600px SLUTTER */
 
+@media only screen and (max-width: 600px){
+
+
+    #hovedsidetitlen{
+
+    
+    
+    font-size: 18px;
+    margin-top: 250px;    
+    
+    }
+    
+    
+    .logo{
+
+    
+     margin-top: 200px;
+    
+    }
+    
+    #background{
+
+    min-height: 850px;
+    
+    
+    }
+
+
+}
+    
+
 /* 768px */
 
 @media only screen and (min-width: 768px){
@@ -885,7 +925,9 @@ background-image: linear-gradient(white, darkgray);
 
         .logo {
 
-        max-width: 80%;
+        max-width: 150%;
+        margin-top: 200px;    
+            
             
                 }
  
@@ -909,10 +951,23 @@ background-image: linear-gradient(white, darkgray);
 margin-top: 6px;
 
 }
+    
+    
+ 
+#hovedsidetitlen{
+        
+        margin-top: 250px;
+        letter-spacing:50px;
+        margin-left: -22px;
+    
+    }    
 
 }
 
 /* 768px SLUTTER */
+
+
+
 
 
 /* 992x */
@@ -966,13 +1021,13 @@ font-size: 12px;
     
     #hovedsidetitlen{
         
-        margin-top: 100px;
+        margin-top: 300px;
         letter-spacing:70px;
     }
     
        .logo {
 
-        max-width: 60%;
+        max-width: 100%;
             
                 }
    
