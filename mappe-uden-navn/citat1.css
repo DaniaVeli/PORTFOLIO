@@ -1,0 +1,27 @@
+body{
+    background-color: darkred;
+}
+
+p{
+    color: white;
+}
+
+.citat{
+    font-size: 3em;
+    padding: 3%;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+#kilde{
+    font-size: 1.8em;
+    padding-right: 15%;
+    text-align: right;
+    font-family: fantasy;
+}
+
+.citat:nth-child(2){
+    font-size: 1.5em;
+}
+

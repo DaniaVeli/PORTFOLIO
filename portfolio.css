@@ -86,88 +86,155 @@ font-family: 'Lato', sans-serif;
 
 }
 
-.empiri{
+#pagewrapempiri{
     
     text-align: center;
     
 }
 
 
-.typograf{
+
+#pagewraptypografi{
     
     text-align: center; 
     
 }
 
-.fotograf{
+#pagewrapfotografi{
 
  text-align: center; 
 
 }
 
 
-.grund{
+#pagewrapkommunikation{
     
     text-align: center;
 }
 
 
-.thinking{
+#pagewrapdt{
 
 text-align: center;
     
 }
 
 
-.cssfile{
+#pagewrapcss{
 
 text-align: center;
     
 }
 
 
-.responsive{
+#pagewrapresponsive{
     
      text-align: center;
 }
 
-.loven{
+#pagewrapgestalt{
     
      text-align: center;
 }
 
-.perioder{
+#pagewrapinternet{
     
     text-align: center;
     
 }
 
-.farver-a{
+#pagewrapfarve{
     
       text-align: center;
     
 }
 
-.htmlsite{
+#pagewraphtml{
     
     text-align: center;
     
 }
 
-.usabilit{
+#pagewrapusability{
 
 text-align: center;
     
 }
 
-.teknik{
+#pagewrapteknik{
     
 text-align: center;
     
 }
 
+#pagewrapfotografering{
+    
+ text-align: center;   
+    
+}
 
-  s
+#pagewraptekstphotoshop{
+    
+ text-align: center;   
+    
+}
+  
+#pagewraptekstillustrator{
+    
+ text-align: center;   
+    
+}
+
+#margin{
+    
+ text-align: center;   
+    
+}
+
+#pagewraptekstproduktion{
+    
+text-align: center;    
+    
+}
+
+#pagewrapophavsret{
+    
+text-align: center;     
+    
+}
+
+#pagewrapbmc{
+    
+text-align: center;
+    
+}
+
+#pagewrapversion{
+    
+text-align: center;    
+    
+}
+
+
+#pagewrapteksthackathon{
+    
+text-align: center;
+
+}
+
+#pagewraptekstpage{
+    
+ text-align: center;
+    
+}
+
+#pagewraptekstportfolio{
+    
+ text-align: center;
+    
+}
+
+
 
 /*TEXT - ALIGN SLUTTER */
 
@@ -217,15 +284,26 @@ text-align: center;
 }
 
 
-.fotografi img{
+.photoshop img{
 
     max-width:100%;
     margin-right: auto;
     margin-left: auto;
     display: flex; 
 
+}
+
+
+.one-page img{
+
+
+max-width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
 
 }
+
 
 .tekst-produktion img{
 
@@ -280,14 +358,6 @@ text-align: center;
 }
 
 
-.one-page img{
-
- max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex; 
-
-}
 
 .designthinking img{
 
@@ -300,12 +370,14 @@ text-align: center;
 
 .htmlside img{
 
-max-width: 100%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex; 
 
 }
+
+
 
 .farver img{
     
@@ -352,8 +424,6 @@ max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
-
-
 }
 
 
@@ -364,10 +434,8 @@ max-width: 100%;
     margin-left: auto;
     display: flex;
 
-
-
-
 }
+
 
 .responsivedesign img{
 
@@ -395,6 +463,17 @@ max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex; 
+    
+    
+}
+
+.ophavsret img{
+    
+    
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
     
     
 }
@@ -457,26 +536,19 @@ margin-top: 13px;
     
 margin-right: 50px;
 
-    
-    
 }
-
 
 
 #undermenuphotoshop{
     
 text-align: center;
-background-color: darkgray;
+background-color: #A8A9AD;
 max-width: 100%;
 margin-left: auto;
 margin-right: auto;
 display: none;
 max-height: auto;
-
-
-
-  
-  
+ 
 }
 
 #undermenuphotoshop ul li a{
@@ -600,67 +672,104 @@ background-image: white;
 
 .tekst-produktion{
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .gestaltloven{
 
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .designthinking{
 
 
-background-image: linear-gradient(white, darkgray)
+background-image: linear-gradient(white, #A8A9AD)
 
 }
 
 .fn-verdensmal{
 
 
-background-image: linear-gradient(white, darkgray)
+background-image: linear-gradient(white, #A8A9AD)
 
 }
 
+.ophavsret{
+
+background-image: linear-gradient(white, d#A8A9AD);
+
+}
+
+.photoshop{
+    
+background-image: linear-gradient(white, #A8A9AD);    
+    
+}
+
+.one-page{
+    
+ background-image: linear-gradient(white, #A8A9AD);   
+    
+}
 
 .fotografi{
 
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
+
+}
+
+.illustrator{
+    
+    
+  background-image: linear-gradient(white, #A8A9AD);  
+    
+}
+
+.workshop{
+
+ background-image: linear-gradient(white, #A8A9AD);  
+
+}
+
+.portfolio-refleksioner{
+
+background-image: linear-gradient(white, #A8A9AD);
+
 
 }
 
 .internet{
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .css-html{
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 
 .usability{
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .farver{
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .typografi{
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
@@ -668,7 +777,7 @@ background-image: linear-gradient(white, darkgray);
 
 .htmlside{
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
@@ -677,20 +786,20 @@ background-image: linear-gradient(white, darkgray);
 .grundlaeggendekommunikation{
     
     
-background-image: linear-gradient(white, darkgray);    
+background-image: linear-gradient(white, #A8A9AD);    
     
 }
 
 .internet{
     
-    background-image: linear-gradient(white, darkgray);
+    background-image: linear-gradient(white, #A8A9AD);
 }
 
 
 .bmc{
 
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
@@ -698,21 +807,21 @@ background-image: linear-gradient(white, darkgray);
 .kvantitativogkvalitativempiri{
 
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .praesentationsteknik{
 
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
 .background-illustrator{
     
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
     
 }
 
@@ -720,7 +829,7 @@ background-image: linear-gradient(white, darkgray);
 .responsivedesign{
 
 
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
 
 }
 
@@ -738,7 +847,7 @@ background-image: linear-gradient(white, darkgray);
 .informationsarkitektur{
     
     
-background-image: linear-gradient(white, darkgray);
+background-image: linear-gradient(white, #A8A9AD);
     
     
 }
@@ -1166,7 +1275,7 @@ font-family:BatmanForeverAlternate;
 .dropdown-menu a:hover{
     
     background-color: white;
-    transition: 2s; 
+    transition: 4s; 
 }
 
 #undermenuphotoshop:hover{
@@ -1306,6 +1415,12 @@ margin: 1em;
 
 }
 
+#pagewrapophavsret{
+    
+ margin: 1em;   
+    
+}
+
 #pagewraptekstpage{
 
  margin: 1em;
@@ -1332,4 +1447,6 @@ margin: 1em;
  margin: 1em;    
     
 }
+
+
 /* PAGEWRAP SLUTTER */

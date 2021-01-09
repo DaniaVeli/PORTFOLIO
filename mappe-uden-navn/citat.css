@@ -1,0 +1,21 @@
+body {
+    background-color: limegreen;
+}
+
+p {
+    color: white;
+}
+
+#citat {
+    font-size: 3em;
+    padding: 15%;
+    padding: 1% 25%;
+    font-family: cursive;
+}
+
+#kilde {
+    font-size: 1.8em;
+    text-align: right;
+    padding-right: 15%;
+    font-family: fantasy;
+}
