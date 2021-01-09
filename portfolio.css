@@ -429,7 +429,7 @@ max-width: 100%;
 
 .workshop img{
 
-max-width: 100%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -1055,6 +1055,27 @@ background-image: linear-gradient(white, #A8A9AD);
      
     }
   
+    
+       .responsivedesign img{
+
+    max-width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+      .gestaltloven img{
+    
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
+    
+}
+    
+ 
+    
 #undermenuphotoshop ul{
 
 margin-top: 6px;
@@ -1148,6 +1169,27 @@ font-size: 12px;
         
         
     }
+    
+       .responsivedesign img{
+
+    max-width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+    
+      .gestaltloven img{
+    
+    max-width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
+    
+}
+    
+ 
   
 
     
@@ -1204,6 +1246,26 @@ vertical-align: middle;
         letter-spacing: 1px;
          
     }
+    
+    .responsivedesign img{
+
+    max-width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+
+}
+    
+    
+    .gestaltloven img{
+    
+    max-width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;  
+    
+}
     
   
   #undermenuphotoshop ul{
