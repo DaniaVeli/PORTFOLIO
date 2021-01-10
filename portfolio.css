@@ -216,6 +216,8 @@ text-align: center;
 }
 
 
+
+
 #pagewrapteksthackathon{
     
 text-align: center;
@@ -232,7 +234,9 @@ text-align: center;
     
  text-align: center;
     
+    
 }
+
 
 
 
@@ -359,6 +363,7 @@ max-width:100%;
 
 
 
+
 .designthinking img{
 
     max-width: 100%;
@@ -446,6 +451,22 @@ max-width: 100%;
 
 
 }
+
+
+
+
+.portfolio-refleksioner img{
+    
+      max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+    
+}
+
+
+
 
 .grundlaeggendekommunikation img{
 
